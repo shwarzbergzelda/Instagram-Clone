@@ -1,0 +1,99 @@
+body {
+    margin: 0 auto;
+    width: 375px;
+    border: 1px solid black;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 127px;
+    margin-left: 10px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.post-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name,
+.user-location {
+    margin: 0;
+}
+
+.user-name {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+
+.user-location {
+    font-size: 12px;
+}
+
+.main-post img {
+    width: 375px;
+}
+
+.post-footer {
+    padding-left: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.interactions {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.interactions img {
+    width: 34px;
+}
+
+.likes,
+.username {
+    font-weight: 700;
+}
+
+.likes p,
+.post-comment p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.post-comment {
+    display: flex;
+    gap: 7px;
+}
+
+.post {
+    border-bottom: 25px solid #EDEDED;
+}
