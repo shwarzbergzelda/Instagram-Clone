@@ -21,9 +21,9 @@ const postsHtml = posts.map(individualPost => {
 
             <div class="post-footer">
                 <div class="interactions">
-                    <img id="like-btn" src="./images/icon-heart.png" alt="like button">
-                    <img id="comment-btn" src="./images/icon-comment.png" alt="comment button">
-                    <img id="share-btn" src="./images/icon-dm.png" alt="share button">
+                    <img id="like-btn" class="interaction-btn" src="./images/icon-heart.png" alt="like button">
+                    <img class="interaction-btn" src="./images/icon-comment.png" alt="comment button">
+                    <img class="interaction-btn" src="./images/icon-dm.png" alt="share button">
                 </div>
 
                 <div class="likes">

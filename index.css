@@ -97,3 +97,8 @@ body {
 .post {
     border-bottom: 25px solid #EDEDED;
 }
+
+.interaction-btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
